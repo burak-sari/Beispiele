@@ -1,0 +1,22 @@
+package gluecksspiel;
+
+public class Prozent {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+				//Zufallsgenerierung Zahl 1-100
+		double randomValue=Math.random()*100 + 1;
+			System.out.println((int)randomValue);
+
+		if(randomValue <=42) {
+			System.out.println("Gewonnen");
+
+		} else {
+			System.out.println("Verloren");
+		}
+		
+		
+	}
+
+}
