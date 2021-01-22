@@ -1,0 +1,29 @@
+package blatt02;
+
+public class Konto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int jahre =30;
+		double zins = 2.0;
+		double guthaben = 0;
+		double erhöhung =1000;
+		double zinsen=0;
+		double endbetrag=0;
+		
+		for(int i=1;i<=jahre;i++){
+			
+			
+			guthaben=guthaben+erhöhung;
+			zinsen=(guthaben/100)*zins;
+			endbetrag=guthaben+zinsen;
+			
+				
+		
+		System.out.println("Guthaben nach dem " + i + " Jahr: " + endbetrag);
+		}
+		
+	}
+
+}
