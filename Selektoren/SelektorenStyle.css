@@ -1,0 +1,57 @@
+#Textbereich {
+    border: inherit;
+    background-color: black;
+    height: 432px;
+}
+
+div {
+    display: block;
+}
+
+#wrapper {
+    margin: 20px auto auto;
+    text-align: left;
+    width: 798px;
+    height: 598px;
+    border: 1px solid rgb(255, 0, 0);
+    background-color: rgb(153, 153, 153);
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+}
+
+#Kopfbereich {
+    color: red;
+    border-style: inherit;
+    border-width: inherit;
+    border-image: inherit;
+    border-color: rgb(255, 255, 255);
+    background-color: green;
+    height: 100px;
+}
+
+#Fussbereich {
+    border-style: inherit;
+    border-width: inherit;
+    border-image: inherit;
+    background-color: brown;
+    border-color: rgb(255, 255, 255);
+    font-size: 7pt;
+    height: 10px;
+}
+
+html {
+    display: block;
+}
+
+#Navibereich {
+    border: inherit;
+    background-color: grey;
+    height: 48px;
+}

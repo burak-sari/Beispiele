@@ -1,0 +1,11 @@
+Text1: Radkappe abnehmen. Werkzeug auspacken.
+
+Text2: Gang einlegen. Handbremse anziehen. Wagenheber ansetzen und aufbocken.
+
+Text3: Radmuttern lösen. Rad abnehmen
+
+Text4: Reserverad aus dem Wagen nehmen und montieren.
+
+Text5: Radmuttern lösen. Rad abnehmen
+
+Text6: Weiterfahren.

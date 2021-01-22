@@ -1,0 +1,362 @@
+* {
+    padding: 0px;  
+    margin: 0px;   
+}
+html, body {
+    height: 100%; 
+	background-color: #3D3C3A;                    
+	color: black;                              
+	font-family:Arial, Helvetica, sans-serif;  
+	font-size: 5.5vh;                            
+	text-align: center; 
+}
+#wrapper {                    
+	margin: 0 auto;
+	margin-top: 0%;
+	text-align: left;                     
+	width: 80%;                 
+	height: 92%;                 
+	background-color: #707070;    	
+}
+header {   
+   background-image: url(mlindau.jpg);
+   background-repeat: repeat;
+   font-size: 5.8vh;                 
+   color: #3D3C3A;                    
+   border: 0.1% solid #FF0000;               
+   border-color:#FFFFFF;          
+   background-color: #FBA827;       
+   height: 133px;               
+}
+            
+nav { 
+   font-size: 1.8vh;     
+   float: left;
+   border: 0.1% solid #DDD4BC;
+   background-color: #707070;        
+   width: 14.8%;
+   height: 81%; 
+   padding: 0.1%;			  
+}
+.btn {
+	height: 3vh;
+	border: thin #707070 solid;
+	background-color:#F8DC0B;
+	padding: 1.5%;
+	}
+article {  
+   font-size: 1.9vh; 
+   color: #000000;                  
+   border: 0.1% solid #DDD4BC;
+   background-color: #D3D2CE;                    
+   width: 84.65%;
+   height: 81%;
+   padding: 0.1%;
+   float: left;
+}
+footer {                    
+   font-size: 1.8vh;
+   clear: left; 
+   border: 0.1% solid #000000;
+   background-color: #D5A61C;       
+   height: 2.8%;                  
+   padding: 2%;
+   text-align: center;
+}
+#pic1 {
+    width: 51%;
+    float: left;
+}
+#text1 {
+    width: 47%;
+    float: left;
+}
+#bild1 {
+	max-width: 99%;
+	height: auto;
+	}
+a:link {
+ text-decoration: none;
+ color: #3D3C3A;	
+ font-weight: bold; 
+	}
+a:visited {
+ text-decoration: none;
+ color: #3D3C3A;	
+ font-weight: bold;
+	}
+
+@media only screen and (max-width : 1024px) and (orientation : portrait) {
+#wrapper {                    
+	margin: 0 auto;
+	margin-top: 0;
+	text-align: left;                     
+	width: 100%;                 
+	height: 100%;                
+	border: none; 
+	background-color: #999000;    
+	font-size: 3.0vh;
+}
+header {   
+   background-image: url(header_pic_50proz.png);
+   background-repeat: repeat;
+   height: 10%;
+   font-size: 4.8vh;                        
+}
+nav { 
+   float: left;     
+   background-color: grey;        
+   height: auto; 
+   padding: 0.5%;
+   width: 15%;
+   font-size: 2.0vh;
+}
+.btn {
+	height: 3vh;
+	border: thin #707070 solid;
+	background-color:#F8DC0B;
+	padding: 1.5%;
+    font-size: 1.5vh;
+}
+article {  
+   float: left;
+   color: black;                  
+   background-color: white;                    
+   width: 80%;
+   height: 81%;
+   padding: 0.5%;
+   font-size: 2.8vh;
+}
+footer {                    
+   height: 9%;
+}
+#pic1 {
+    width: 100%;
+    float: left;
+}
+#text1 {
+    width: 100%;
+    float: left;
+    font-size: 1.5vh;
+}
+#bild1 {
+	max-width: 100%;
+	height: auto;
+	}
+}
+
+@media only screen and (max-width : 768px) and (orientation : portrait) {
+#wrapper {                    
+	margin: 0 auto;
+	margin-top: 0;
+	text-align: left;                     
+	width: 100%;                 
+	height: 100%;                
+	border: none; 
+	background-color: #999000;    
+	font-size: 3.0vh;
+}
+header {   
+   background-image: url(header_pic_50proz.png);
+   background-repeat: repeat;
+   height: 13%;
+   font-size: 4.8vh;                        
+}
+nav { 
+   float: left;     
+   background-color: grey;        
+   height: auto; 
+   padding: 0.5%;
+   width: 15%;
+   /*font-size: 2.0vh;*/
+}
+article {  
+   float: left;
+   color: black;                  
+   background-color: white;                    
+   width: 80%;
+   height: 81%;
+   padding: 0.5%;
+   font-size: 2.8vh;
+}
+footer {                    
+   height: 6%;
+}
+#bild1 {
+	max-width: 100%;
+	height: auto;
+	}
+}
+
+@media only screen and (min-width : 600px) and (orientation : portrait) {
+nav { 
+   float: left;       
+   background-color: grey;        
+   height: auto; 
+   padding: 0.5%;
+   width: 15%;
+   font-size: 1.0vh;
+}
+}
+
+@media only screen and (min-width : 481px) and (max-width : 599px) {
+#wrapper {                    
+	margin: 0 auto;
+	margin-top: 0;
+	text-align: left;                     
+	width: 100%;                 
+	height: 87%;                
+	border: none; 
+	background-color: #999999;    
+	font-size: 3.8vh;
+}
+header {   
+   background-image: url(header_pic_20proz.png);
+   background-repeat: repeat;
+   height: 53px;
+   font-size: 1.8vh;                        
+}
+nav { 
+   clear: left;     
+   
+   background-color: grey;        
+   height: auto; 
+   padding: 0.5%;
+   width: 99%;
+   font-size: 3.8vh;
+}
+article {  
+   clear: left;
+   color: black;                  
+  
+   background-color: white;                    
+   width: 99%;
+   height: 81%;
+   padding: 0.5%;
+   font-size: 3.8vh;
+}
+footer {                    
+   font-size: 1.5vh;
+}
+#bild1 {
+	max-width: 40%;
+	height: auto;
+	}
+}
+ 
+
+
+@media only screen and (max-width : 480px) {
+#wrapper {                    
+	margin: 0 auto;
+	margin-top: 0;
+	text-align: left;                     
+	width: 100%;                 
+	height: 95%;                
+	border: none; 
+	background-color: #999999;    	
+}
+header {   
+   background-image: url(header_pic_20proz.png);
+   background-repeat: repeat;
+   height: 7%;
+   font-size: 2.8vh;                        
+}
+nav { 
+   clear: left;     
+   background-color: #D3D2CE;        
+   height: 25%; 
+   padding: 0.5%;
+   width: 99%;
+   font-size: 2.2vh;
+}
+.btn {
+	height: 3.0vh;
+	border: thin #707070 solid;
+	background-color:#F8DC0B;
+	padding: 1.5%;
+    font-size: 2.0vh;
+}
+article {  
+   color: #000000;                  
+   border: 0.1% solid #DDD4BC;
+   background-color: #D3D2CE;                 
+   width: 99%;
+   height: 61%;
+   padding: 0.5%;
+   font-size: 2.2vh;
+   overflow: scroll;
+}
+footer {  
+   height: 10%;
+   font-size: 1.8vh;
+}
+
+#bild1 {
+	max-width: 100%;
+	height: auto;
+	}
+#pic1 {
+    width: 100%;
+    float: left;
+}
+#text1 {
+    width: 100%;
+    float: left;
+    font-size: 1.5vh;
+}
+} 
+
+
+@media only screen
+and (min-width : 321px) {
+
+}
+ 
+
+@media only screen
+and (max-width : 320px) {
+
+}
+ 
+
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+
+}
+ 
+
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+
+}
+ 
+
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+
+}
+ 
+
+@media only screen
+and (min-width : 1224px) {
+
+}
+ 
+
+@media only screen
+and (min-width : 1824px) {
+
+}
+ 
+
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+
+}

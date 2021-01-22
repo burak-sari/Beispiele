@@ -1,0 +1,161 @@
+* {
+    padding: 0px;  
+    margin: 0px;   
+}
+#alphabet {
+	background-color: #1766A8;
+}
+
+
+body {
+	background-color: blue;                    
+	color: white;                              
+	font-family: Arial, Helvetica, sans-serif;  
+	font-size:16pt;                            
+	text-align: center; 
+}
+
+#wrapper {
+    margin: 0 auto;           
+	text-align: left;                         
+	margin-top: 10px;             
+	width: 1022px;                 
+	height: 766px;        
+	background-color: #999999;  
+	
+}
+#Kopfbereich {
+	color: red;
+	background-color: green;
+	height: 150px;                 
+	background-image: url(Bilder/kopf_background.jpg);
+	
+}                           
+
+#logo {
+	float: left;
+	background-color:#00CC33;
+	height: 150px;
+	width: 150px;
+}
+#banner {    
+    margin-left: 150px;
+	background-image:url(Bilder/kopf_background.jpg);
+	height: 150px;
+	width: 872px;          
+	text-align: center;
+	line-height: 150px;    
+	                       
+	vertical-align: bottom;
+}
+h1 {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 24pt;
+	font-weight: bold;
+	color: #1867A9;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+}
+
+#Navibereich {
+	float: left;     
+	background-color: grey;
+	width: 196px;
+	height: 596px;				  
+	background-image: url(Bilder/navi_background.jpg);
+}                          
+#Navibereich2 {
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:12pt;
+	color:#000066;
+	margin-left: 198px;   
+	background-color: #1766A8;
+	height: 18px;                 
+	width: 822px;            
+	font-weight: bold;
+}
+#Navibereich ul{
+	list-style-type: none;   
+	margin: 25px 0 0 0;      
+	padding: 0;
+	}
+#Navibereich a:link, #Navibereich a:visited {    
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 12pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;                    
+	display: block;                           
+	padding: 2px;
+	background-color:#1766A8;
+	border-left: 23px solid #EEEEEE;          
+	border-bottom: 1px solid black;
+	}
+
+#Navibereich a:hover {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 12pt;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	padding: 2px;
+	background-color:#EEEEEE;
+	border-left: 23px solid #990000;
+	border-bottom: 1px solid black;
+	}
+#Textbereich {
+	margin-left: 198px;     
+	background-color: #FFFFFF;
+	height: 568px;                
+	width: 812px;
+	padding: 5px;                
+	color: #000000;
+	font-size: 10pt;
+	overflow-y: scroll;  
+}                           
+h3 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 24pt;
+	font-weight: bold;
+	color: #000000;
+}
+
+#Fussbereich {
+   background-color: brown;      
+   border-color:#FFFFFF;         
+   font-size:10pt;                
+   height: 20px;                 
+}                        
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12pt;
+}
+a:visited {
+	color: #CCCCCC;
+	text-decoration: none;
+	font-size: 12pt;
+	font-weight: bold;
+}
+a:hover {
+	color: #FFFF00;
+	text-decoration: none;
+	font-size: 12pt;
+	font-weight: bold;
+}
+.td_navi2 {
+	width: 20%;
+	background-color: #316AC5;
+}
+.td_sitemap {
+	background-color: #316AC5;
+	font-family: "BankGothic Lt BT";
+	font-size: 10pt;
+}
+.Stil1 {color: #FFFFFF}
+
+.Stil2 {font-family: "BankGothic Lt BT"}
