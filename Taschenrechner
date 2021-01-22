@@ -1,0 +1,65 @@
+package taschenrechner;
+
+import java.util.Scanner;
+
+public class Taschenrechner_ {
+
+	public static void main(String[] args) {
+		
+		double zahl1, zahl2, ergebnis;
+		int eingabe1;
+		
+				// Eingabe der Rechenart per Integer Zahl
+		Scanner scannerVariableTwo = new Scanner(System.in);
+		
+			System.out.println("Eingabe bitte: 1=Addieren, 2=Subtrahieren, 3=Multiplizieren, 4=Dividieren");
+				eingabe1=scannerVariableTwo.nextInt();
+				
+				//If-Abfragen für verschiedene Rechenoperationen
+		if(eingabe1==1) {
+			Scanner scannerVariable = new Scanner(System.in);
+
+			System.out.println("Erste Zahl bitte.");
+			zahl1=scannerVariable.nextDouble();
+			System.out.println("Zweite Zahl bitte.");
+			zahl2=scannerVariable.nextDouble();
+			ergebnis=zahl1+zahl2;
+			System.out.println("Das Ergebnis ist: " + ergebnis);
+		}
+		
+		else if (eingabe1==2) {
+			Scanner scannerVariable = new Scanner(System.in);
+
+			System.out.println("Erste Zahl bitte.");
+			zahl1=scannerVariable.nextDouble();
+			System.out.println("Zweite Zahl bitte.");
+			zahl2=scannerVariable.nextDouble();
+			ergebnis=zahl1-zahl2;
+			System.out.println("Das Ergebnis ist: " + ergebnis);
+			
+		}
+		else if(eingabe1==3) {
+			Scanner scannerVariable = new Scanner(System.in);
+
+			System.out.println("Erste Zahl bitte.");
+			zahl1=scannerVariable.nextDouble();
+			System.out.println("Zweite Zahl bitte.");
+			zahl2=scannerVariable.nextDouble();
+			ergebnis=zahl1*zahl2;
+			System.out.println("Das Ergebnis ist: " + ergebnis);
+			
+		}
+		else {
+			Scanner scannerVariable = new Scanner(System.in);
+
+			System.out.println("Erste Zahl bitte.");
+			zahl1=scannerVariable.nextDouble();
+			System.out.println("Zweite Zahl bitte.");
+			zahl2=scannerVariable.nextDouble();
+			ergebnis=zahl1/zahl2;
+			System.out.println("Das Ergebnis ist: " + ergebnis);
+			
+		}
+	}
+
+}
