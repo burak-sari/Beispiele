@@ -1,0 +1,16 @@
+package uhr;
+
+public class Uhr_ {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+				//Uhrenbeispiel zum Verständnis von verschachtelten For-Schleifen
+		for(int i =0;i < 24; i++) {
+			for(int j = 0; j < 60; j++) {
+				System.out.println("ZEIT: " + i + ":"+j);
+			}
+		}
+	}
+
+}
